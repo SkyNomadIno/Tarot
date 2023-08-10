@@ -1,0 +1,75 @@
+
+
+    body {
+        font-family: 'Marcellus', serif;
+        background-color: black;
+        color: rgb(125, 122, 122);
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+    
+    
+    header { 
+        color: rgb(125, 122, 122);
+        margin: 10px;
+        padding: 1%;
+        font-size: 1em;
+        display: flex;
+        justify-content: space-around; }
+
+ header a {
+    text-decoration: none;
+    color: rgb(125, 122, 122);
+    margin: 10px;
+}
+
+ 
+
+h1 {
+    font-size: 2.3em;
+    margin: 70px 0px 50px 0px;
+    text-align: center;
+}
+
+
+p { font-size: 1.2em;
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;   
+}
+
+p:last-child {
+    margin-bottom: 200px;
+}
+
+img {
+    max-width: 200px;
+    height: 350px;
+    border-radius: 5px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px rgba(120, 113, 113, 0.992),
+    -2px -2px 0px rgba(255, 255, 255, 0.771);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#karte3 {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+footer {
+    color: black;
+    padding: 30px;
+ }
+
+.fa-brands {
+    text-shadow: 1px 1px 0 rgb(125, 122, 122), -1px -1px 0 rgb(125, 122, 122);
+ }

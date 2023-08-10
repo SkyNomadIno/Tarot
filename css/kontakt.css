@@ -1,0 +1,136 @@
+*{
+    font-family: 'Marcellus', serif;
+}
+
+body {
+
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgb(7, 7, 7);
+color: rgb(190, 188, 188);
+margin: 0 auto;
+padding: 0;
+background-color: black;
+cursor: default;
+font-size: 1em;
+text-align: center;
+}
+
+
+header { 
+padding: 1%;
+font-size: 1em;
+display: flex;
+justify-content: space-around;
+background-color: black;
+}
+
+header a {
+color: rgb(190, 188, 188);
+margin: 10px;
+text-decoration: none;
+}
+
+label {
+    margin: 2%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    background-color: rgb(222, 222, 222);
+    border-radius: 5px;
+    background-image: url(../slike/oblaci_cut.gif);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(163, 161, 163);
+    background-blend-mode:screen;
+}
+
+textarea {
+    background-color: rgb(222, 222, 222);
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 1%; 
+    box-sizing: border-box;
+    background: url('../slike/oblaci_cut.gif');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(163, 161, 163);
+    background-blend-mode:screen;
+}
+textarea::placeholder{
+    color: black;
+}
+
+
+#forma {
+    margin-top: 5%;
+}
+
+button {
+    background-color: rgb(190, 188, 188);
+    font-weight: bolder;
+    margin-top: 3%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 1px -1px 15px orange;
+    padding: 5px;
+    background: url('../slike/oblaci_cut.gif');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(163, 161, 163);
+    background-blend-mode:screen;
+    
+}
+
+button:hover {
+    color: rgb(190, 188, 188);
+    background-color: black;
+    box-shadow: 1px 1px 2px rgb(234, 231, 231), -1px -1px 2px rgb(221, 218, 218);
+}
+
+
+footer {
+    color: rgb(6, 6, 6);
+    padding: 30px;
+    text-align: center;
+
+ }
+
+.fa-brands {
+    margin-top: -250px;
+    text-shadow: 1px 1px 0 rgb(190, 188, 188), -1px -1px 0 rgb(190, 188, 188);
+ }
+
+ span {
+    background: url('../slike/leptirljubicasti.png');
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    pointer-events: none;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 4s linear;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      filter: hue-rotate(140deg);
+    }
+
+    30% {
+        opacity: 1;
+    }
+    
+    100% {
+      transform: translate(-10%, -2500%);
+      opacity: 0;
+      filter: hue-rotate(1000deg);
+    }
+  }
