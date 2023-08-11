@@ -73,3 +73,46 @@ footer {
 .fa-brands {
     text-shadow: 1px 1px 0 rgb(125, 122, 122), -1px -1px 0 rgb(125, 122, 122);
  }
+
+
+
+ @media (max-width: 700px) and (min-width: 390px ) {
+     
+    #karte3 img{
+        display: inline-block;
+        width: 100px;
+        height: 160px;
+        margin: 5px;
+        border-radius: 5px;
+          
+     }
+     }  
+
+     @media (max-width: 390px){
+        
+    #karte3 img{
+        display: inline-block;
+        width: 100px;
+        height: 160px;
+        margin: 5px;
+        border-radius: 5px;
+           
+
+     } }
+
+     @media (max-width: 360px){
+        #karte3 img{
+            display: inline-block;
+            width: 90px;
+        }
+     }
+
+    @media (min-width: 701px) and (max-width: 819px){
+        
+        #karte3 img{
+            width: 150px;
+            height: 250px;
+            margin: 20px;
+            padding: 0px;
+        }
+    }
